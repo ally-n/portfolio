@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.title {
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -10px;
+    letter-spacing: 20px;
+    font-family: 'Fjalla One', serif;
+    padding-top: 10px;
+}
+
+.links-grid {
+    border: 2px solid #00120b;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+.nav-link {
+    /* width: 70px; */
+    text-align: center;
+    border-right: 2px solid #00120b;
+   
+    
+}   
+
+.nav-link a {
+    font-family: 'Fjalla One', serif;
+    color: #00120b;
+    text-decoration: none;
+    /* padding: 10px; */
+    
+}
+
+.nav-link a:hover {
+   color: #BB342F;
+}
+
+.skill-body {
+    height: 450px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer-container-left {
+    color: #00120b;
+    height: 50px;
+    padding-top: 20px;
+    
+}
+
+.footer-container-right {
+    color: #00120b;
+    font-family: 'Fjalla One', serif;
+    text-align: right;
+    height: 50px;
+    margin-top: -35px;
+    font-size: 17px;
+
+}
+
+.fab {
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #00120b;
+    font-size: 30px;  }
+  
+  .fab:hover {
+    color: #BB342F
+  }
