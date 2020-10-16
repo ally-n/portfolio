@@ -102,6 +102,10 @@ body {
     background-color: #6b818c;
 }
 
+.sitting-image {
+    padding: 100px;
+}
+
 .footer-container-left {
     color: #00120b;
     height: 50px;
