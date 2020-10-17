@@ -36,83 +36,18 @@ body {
 }
 
 .nav-link a:hover {
-   color: #BB342F;
+   color: #684551;
 }
 
-.about-me-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 250px;
-    font-family: 'Fjalla One', serif;
-    
-}
-
-.about-me-container {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-}
-
-.about-me-container-1 {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-    background-color: #6b818c;
-    text-align: center;
-   
-}
-
-.about-me-container-2 {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-    
-}
-
-.about-me-container-3 {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-    background-color: #dda448;
-    object-fit: contain;
-   
-}
-
-.computer-pic {
-    width: 100%;
-    padding: 14% 0px 10%;
-
-}
-.about-me-container-4 {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-    
-}
-
-.about-me-container-5 {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-    background-color: #35605A;
-    
-}
-
-.about-me-container-6 {
-    border-right: 2px solid #00120b;
-    border-bottom: 2px solid #00120b;
-    
-}
-
-.about-me-grid-2 {
-    display: grid;
-    grid-template-columns: 250px auto 250px;
-    height: 250px;
-    font-family: 'Fjalla One', serif;
-}
-
-.grid-1 {
-    background-color: #6b818c;
+.footer-container {
+    border-top: 2px #00120b;
 }
 
 .footer-container-left {
     color: #00120b;
     height: 50px;
     padding-top: 20px;
+    
     
 }
 
