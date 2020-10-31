@@ -55,11 +55,15 @@ body {
 
 }
 
+.skills-flex>* {
+  flex: 300px;
+}
+
   /* .skill-body {
     font-family: 'Fjalla One', serif;
     /* position: sticky; */
   
-     } */
+     }
   
   .column {
     float: left;
@@ -82,9 +86,10 @@ body {
     text-align: center;
     color: #ffffff;
     background-color: #708d81;
-    height: 100px;
-    width: 250px ;
-    margin-top: 15px;
+    height: 150px;
+    width: 275px ;
+    margin-top: 20px;
+    margin-right: 20px;
     /* width: 33%;
     padding: 30px 30px; */
   }
@@ -115,7 +120,7 @@ body {
     position: relative;
     bottom: 1px;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
   
