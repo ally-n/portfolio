@@ -3,17 +3,18 @@ body {
 }
 
 .title {
-    height: 50px;
-    font-size: 30px;
+    height: 75px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: -10px;
     letter-spacing: 20px;
     font-family: 'Fjalla One', serif;
     padding-top: 10px;
+    color: #002626;
 }
 
 .links-grid {
-    border: 2px solid #00120b;
+    border: 2px solid #002626;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     
@@ -22,37 +23,88 @@ body {
 .nav-link {
     /* width: 70px; */
     text-align: center;
-    border-right: 2px solid #00120b;
+    border-right: 2px solid #002626;
    
     
 }   
 
+.sitting-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.purple-block img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        /* position: absolute; */
+        z-index: 1;
+        
+}
+
+.purple-pic img {
+    position:relative;
+    align-items: center;
+    top: 25%;
+    bottom: 25%;
+    z-index: 2;
+    width: 40%;
+}
+
+.purple-title {
+    position:relative;
+    top: 25%;
+    right: -25%;
+    z-index: 3;
+    font-family: 'Fjalla One', serif;
+    color: #002626;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.purple-text {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    z-index: 4;
+    font-family: 'Fjalla One', serif;
+    color: #002626;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 .nav-link a {
     font-family: 'Fjalla One', serif;
-    color: #00120b;
+    color: #002626;
     text-decoration: none;
+    font-size: 24px;
+    transition: all .4s ease;
     /* padding: 10px; */
     
 }
 
 .nav-link a:hover {
-   color: #684551;
+   /* color: #708d81; */
+   letter-spacing: 3px;
+   transition: all .4s ease;
 }
 
 .footer-container {
-    border-top: 2px #00120b;
+    border-top: 2px solid #002626;
 }
 
 .footer-container-left {
-    color: #00120b;
+    color: #002626;
     height: 50px;
     padding-top: 20px;
-    
     
 }
 
 .footer-container-right {
-    color: #00120b;
+    color: #002626;;
     font-family: 'Fjalla One', serif;
     text-align: right;
     height: 50px;
@@ -66,7 +118,7 @@ body {
     width: 100px;
     text-align: center;
     text-decoration: none;
-    color: #00120b;
+    color: #002626;;
     font-size: 30px;  }
   
   .fab:hover {
