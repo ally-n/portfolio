@@ -103,10 +103,11 @@ body {
 .green-pic img {
     align-items: center;
     justify-content:space-around;
-    top: 27%;
+    top: 25%;
     z-index: 2;
-    width:40%;
+    /* width:40%; */
     margin-left: 50%;
+    height: 310px;
 }
 
 .green-title :link, :visited {
